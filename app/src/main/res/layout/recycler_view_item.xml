@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/item_picture"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="4dp"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/test" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textSize="16sp"
+                tools:text="Жарена картопля" />
+
+            <TextView
+                android:id="@+id/item_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:ellipsize="end"
+                android:maxLines="7"
+                tools:text="Ах, жареная картошечка! Ах, жареная картошечка! Нет на свете блюда вкуснее, роднее и любимее! Ничего, что калорийное, но зато такое аппетитное! Какой вы больше всего любите жареную картошку – мягкую и полурассыпчатую или хрустящую и поджаристую, сочную и солнечно-желтую или сухую и румяную? Как предпочитаете есть – с миской квашеной капусты или парочкой поджаренных яиц, с солеными бочковыми огурцами или острым кетчупом?" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

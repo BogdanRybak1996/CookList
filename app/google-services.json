@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "169832472956",
+    "firebase_url": "https://cooklist-154d7.firebaseio.com",
+    "project_id": "cooklist-154d7",
+    "storage_bucket": "cooklist-154d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169832472956:android:c8fee8193c57e593",
+        "android_client_info": {
+          "package_name": "ua.cook.cooklist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169832472956-oasqei5lekdp7trtl3o9lgia09tqjo5p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ua.cook.cooklist",
+            "certificate_hash": "3fd571ce191a2d2bccb9dc97c7714618237dd400"
+          }
+        },
+        {
+          "client_id": "169832472956-u1buu9ertc2vd3ukehddck16aifn0vm1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_tRO627XKgLqNCkcmV30wTxsa6w0e-sE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169832472956-u1buu9ertc2vd3ukehddck16aifn0vm1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

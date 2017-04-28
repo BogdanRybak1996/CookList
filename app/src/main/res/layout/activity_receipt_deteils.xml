@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ua.cook.cooklist.activity.ReceiptDeteilsActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/details_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                tools:src="@drawable/test"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/detais_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:text="Жарена картоша"/>
+
+            <TextView
+                android:id="@+id/details_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Что лучше картошка с кожурой или без. Однозначного ответа на этот вопрос не существует – это дело вкуса. Кому-то нравится вкус картошки с кожицей, а кто-то чувствует в сваренном в мундире картофеле странный, не слишком приятный привкус."
+                android:layout_margin="16dp"/>
+            <TextView
+                android:id="@+id/details_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="italic"
+                android:layout_marginBottom="4dp"
+                tools:text="Рецепт додав: Паша Стужук"/>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</FrameLayout>
